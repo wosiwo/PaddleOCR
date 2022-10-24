@@ -79,7 +79,7 @@ Train:
     data_dir: ./train_data/
     ext_op_transform_idx: 1
     label_file_list:
-    - ./train_data/train_list.txt
+    - ./train_data/ic15_data/rec_gt_train.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -102,7 +102,7 @@ Train:
         - valid_ratio
   loader:
     shuffle: true
-    batch_size_per_card: 128
+    batch_size_per_card: 64
     drop_last: true
     num_workers: 4
 Eval:
@@ -110,7 +110,7 @@ Eval:
     name: SimpleDataSet
     data_dir: ./train_data
     label_file_list:
-    - ./train_data/val_list.txt
+    - ./train_data/ic15_data/rec_gt_test.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
