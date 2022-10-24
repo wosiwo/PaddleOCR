@@ -24,7 +24,6 @@ PaddleOCR aims to create multilingual, awesome, leading, and practical OCR tools
 <div align="center">
     <img src="./doc/imgs_results/ch_ppocr_mobile_v2.0/00006737.jpg" width="800">
 </div>
-
 ## 📣 Recent updates
 - 💥 **Live Preview: Oct 24 - Oct 26, China Standard Time, 20:30**, Engineers@PaddleOCR will show PP-StructureV2 optimization strategy for 3 days.
   - Scan the QR code below using WeChat, follow the PaddlePaddle official account and fill out the questionnaire to join the WeChat group, get the live link and 20G OCR learning materials (including PDF2Word application, 10 models in vertical scenarios, etc.)
